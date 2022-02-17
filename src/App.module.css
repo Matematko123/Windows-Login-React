@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./img/bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  margin: 35px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.header img {
+  padding: 40px;
+}
+
+#windowsIcon {
+  position: fixed;
+  bottom: 38px;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  gap: 20px;
+}
+
+main img {
+  display: block;
+}
+
+.notListed {
+  width: 500px;
+  height: 0;
+  color: white;
+  font-size: 17px;
+}
+
+.notListed:hover {
+  color: silver;
+  cursor: pointer;
+}

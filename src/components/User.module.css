@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border: 2px solid #bcbcbc;
+  padding: 20px;
+  border-radius: 100px;
+  color: white;
+  text-align: left;
+  width: 550px;
+  transition: all 0.25s;
+}
+
+.user img {
+  width: 95px;
+}
+
+.user:hover {
+  backdrop-filter: blur(6px);
+  border: 2.2px solid #bcbcbc;
+  background-color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+}
